@@ -1,0 +1,88 @@
+body {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin-top: 25px;
+    margin-left: 58px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], select {
+    width: 430px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-left: 58px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.employee-list {
+    margin-top: 20px;
+}
+
+.employee {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 600px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 58px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.filter-button, .add-user-button {
+    margin-top: 20px;
+    margin-left: 58px;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 24px;
+line-height: 29px;
+}
+
+.new-employee {
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+
+.new-employee .new {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.new-employee .new label {
+    margin-left: 58px;
+    margin-bottom: 10px;
+}

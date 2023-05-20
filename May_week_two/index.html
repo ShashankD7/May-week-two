@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>Employee Management</p>
+
+  <select id="profession" style="width: 150px;">
+    <option value="developer" selected>Profession</option>
+    <option value="developer">Developer</option>
+    <option value="admin">Admin</option>
+  </select>
+
+  <div class="employee-list">
+    <div class="employee">
+      <span>1.</span>
+      <span>Name: John Doe</span>
+      <span>Profession: Developer</span>
+      <span>Age: 30</span>
+    </div>
+    <div class="employee">
+      <span>2.</span>
+      <span>Name: Jane Smith</span>
+      <span>Profession: Admin</span>
+      <span>Age: 35</span>
+    </div>
+    <div class="employee">
+      <span>3.</span>
+      <span>Name: Kane Williamson</span>
+      <span>Profession: Admin</span>
+      <span>Age: 33</span>
+    </div>
+  </div>
+
+  <button class="filter-button">Filter</button>
+
+  <p>Add a new Employee</p>
+  <div class="new-employee">
+    <div class="new">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+    </div>
+
+    <div class="new">
+        <label for="new-profession">Profession:</label>
+    <input type="text" id="new-profession">
+    </div>
+
+    <div class="new">
+        <label for="age">Age:</label>
+    <input type="text" id="age">
+    </div>
+ </div>
+  <button class="add-user-button">Add User</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
